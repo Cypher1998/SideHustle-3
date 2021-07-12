@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background: rgb(22, 22, 22);
+}
+
+#container{
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    padding: 70px 0px 50px;
+    background-image: url('/Images/bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-container{
+    border: 1px solid white;
+    width: 55%;
+    margin: auto;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    box-shadow: 3px 7px 4px  black;
+}
+
+.sub-container h3{
+    font-size: 30px;
+    margin: 20px 0px 10px;
+    color: white;
+}
+
+.sub-container h1{
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(26, 122, 26);
+}
+
+.sub-container button.decrement{
+    font-size: 12px;
+    padding: 8px 12px;
+    background-color: rgb(2, 2, 59);
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px  rgb(2, 3, 49);
+}
+
+.sub-container button.decrement:hover{
+    background-color: rgba(255, 0, 0, 0.884);
+}
+
+.sub-container button.increment{
+    font-size: 12px;
+    padding: 8px 12px;
+    background-color: rgb(2, 2, 59);
+    color: white;
+    margin-bottom: px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px  rgb(2, 3, 49);
+}
+
+.sub-container button.increment:hover{
+    background-color: rgba(14, 202, 29, 0.87);
+}
+
+@media(min-width:768px){
+    .sub-container{
+        width:65%;
+        padding-bottom: 30px;
+    }
+
+    .sub-container h3{
+        font-size: 50px;
+        word-spacing: 1em;
+        padding-bottom: 15px;
+    }
+
+    .sub-container h1{
+        font-size: 150px;
+        padding-bottom: 20px;
+    }
+
+    .sub-container button.decrement{
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .sub-container button.increment{
+        font-size: 18px;
+        padding: 10px;
+    }
+}
